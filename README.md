@@ -19,6 +19,17 @@
  $ source .bashrc
  ```
  ### step 3
+  To activate the rosserial follow the command
+  ```sh
+  rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=9600
+  ```
+  ### step 4
+  To activate the Lidar scan data
+  follow this command
+  ```sh
+  $ roslaunch ydlidar_ros X2.launch
+  ```
+  
  
   
  
